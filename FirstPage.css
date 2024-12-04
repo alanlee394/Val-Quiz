@@ -1,0 +1,25 @@
+#Intro{
+    margin-left:20px;
+    margin-top:10px;
+    font-size: 100px;
+    width:60%;
+    color:black;
+    background-color: aqua;
+}
+#Start{
+    margin-left: 320px;
+    margin-top: 100px;
+    color:black;
+    background-color: aqua;
+    font-size: 80px;
+    cursor: pointer;
+}
+html{
+    height:100%;
+}
+
+body{
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
