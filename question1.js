@@ -1,3 +1,5 @@
+localStorage.setItem("score", 0);
+
 const buttons = document.getElementsByClassName("WrongButton");
 const popup = document.getElementById("popup1");
 const overlay = document.getElementById("overlay1");
