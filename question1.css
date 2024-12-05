@@ -1,0 +1,132 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    position:relative;
+    height: 60vh; /* Top 60% of the viewport */
+    background: url('gun1.jpg')
+}
+
+.bottom {
+    height: 40vh; 
+    background-color: blue; 
+}
+
+#scoreContainer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    color: #333;
+  }
+
+#qn{
+    margin:0px;
+    color:blue;
+    font-size: 70px;
+    position: absolute;
+    bottom: 0; left: 0;
+}
+.popup1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed at the bottom */
+    bottom: 0; /* Align to the bottom */
+    left: 0;
+    width: 100%; /* Full width of the screen */
+    height: 50vh; 
+    background-color: white;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 20px;
+    z-index: 1000; 
+    display: flex; 
+    align-items: center; 
+
+}
+
+.overlay1{display:none;}
+
+#msg1 {
+    margin-top:0px;
+    margin-left: 80px;
+    font-size: 100px;
+
+}
+.popup2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed at the bottom */
+    bottom: 0; /* Align to the bottom */
+    left: 0;
+    width: 100%; /* Full width of the screen */
+    height: 50vh; /* 40% of the viewport height */
+    background-color: white;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Shadow at the top */
+    padding: 20px;
+    z-index: 1000; /* Ensure it appears on top */
+    display: flex; /* Flexbox for aligning content */
+    align-items: center; /* Center vertically */
+    justify-content: space-between; /* Space between text and button */
+}
+
+.overlay2{display:none;}
+
+.close-btn {
+    background-color: aqua;
+    font-size:40px;
+    color: white;
+    border: none;
+    margin-top: 0px;
+    margin-left: 530px;
+    padding: 50px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align:center;
+    position:relative;
+    z-index: 2000000;
+}
+#msg2 {
+    top:0;
+    margin-top:0px;
+    margin-left: 80px;
+    font-size: 100px;
+
+}
+#Option1 {
+    font-size:60px;
+    margin:30px;
+    margin-left:300px;
+    background-color: aqua;
+    color:black;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+
+#correctAnswer {
+    font-size:60px;
+    background-color: aqua;
+    margin-left:250px;
+    cursor: pointer;
+    font-family: 'Poppins'
+}
+#Option3 {
+    font-size:60px;
+    background-color: aqua;
+    margin:30px;
+    margin-left:300px;
+    cursor: pointer;
+    font-family: 'Poppins'
+}
+#Option4 {
+    font-size:60px;
+    background-color: aqua;
+    margin:30px;
+    margin-left:300px;
+    cursor: pointer;
+    font-family: 'Poppins'
+}

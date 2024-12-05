@@ -1,14 +1,15 @@
 #Intro{
     margin-left:20px;
     margin-top:10px;
-    font-size: 100px;
-    width:60%;
+    font-size: 80px;
+    width:50%;
     color:black;
+    padding:10px;
     background-color: aqua;
 }
 #Start{
-    margin-left: 320px;
-    margin-top: 100px;
+    margin-left: 150px;
+    margin-top: 0px;
     color:black;
     background-color: aqua;
     font-size: 80px;
@@ -17,7 +18,13 @@
 html{
     height:100%;
 }
-
+p{
+    width:30%;
+    padding:10px;
+    margin-left:20px;
+    font-size:30px;
+    background-color:aquamarine
+}
 body{
     background-image: url(background.png);
     background-size: cover;

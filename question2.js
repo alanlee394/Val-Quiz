@@ -21,7 +21,7 @@ overlay.addEventListener("click", function () {
     overlay.style.display = "none";
 });
 
-const button2 = document.getElementById("correctAnswer");
+const button2 = document.getElementById("Option2");
 const popup2 = document.getElementById("popup2");
 const overlay2 = document.getElementById("overlay2");
 
@@ -53,7 +53,7 @@ if (!localStorage.getItem('score')) {
   scoreDisplay.textContent = localStorage.getItem('score');
 
 
-  document.getElementById('correctAnswer').addEventListener('click', () => {
+  document.getElementById('Option2').addEventListener('click', () => {
     let score = parseInt(localStorage.getItem('score'), 10);
     score += 5; 
     localStorage.setItem('score', score); 

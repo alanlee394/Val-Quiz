@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <title>Question 1</title>
-    <link rel="stylesheet" href="SecondPage.css">
+    <link rel="stylesheet" href="question1.css">
 </head>
 <body>
-    <div class="top"><p>What Phantom is this?</p></div>
+    <div class="top"><p id="qn">What Phantom is this?</p></div>
     <div class="bottom">
         <button class="WrongButton" id="Option1">Avalanche</button>
 
@@ -15,8 +15,10 @@
             <p id = "msg1">Wrong Answer! No points :</p>
             <button class="close-btn" id="closePopup1">Next Question!</button>
         </div></div>
-
-        <button id="Option2">Prism</button>
+        <div id="scoreContainer">
+            Total Score: <span id="totalScore">0</span>
+          </div>
+        <button id="correctAnswer">Prism</button>
 
         <div class="overlay2" id="overlay2">
             <div class="popup2" id="popup2">
@@ -27,7 +29,8 @@
         <button class="WrongButton" id="Option3">Serenity</button>
         <button class="WrongButton" id="Option4">Silvanus</button>
     </div>
-    
+
+    <p id="totalScore"></p>
     <script src="question1.js"></script>
 </body>
 </html>

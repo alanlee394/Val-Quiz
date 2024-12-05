@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Question 1</title>
+    <link rel="stylesheet" href="question2.css">
 </head>
 <body>
-    
+    <div class="container">
+    <div class="left"></div>
+    <div class="right">
+        <p id="qn">What Rank is this?</p>
+        <button id="correctAnswer">Radiant</button>
+
+        <div class="overlay1" id="overlay1">
+        <div class="popup1" id="popup1">
+            <!--Add Emoji Later--> 
+            <p id = "msg1">Wrong Answer! No points :</p>
+            <button class="close-btn" id="closePopup1">Next Question!</button>
+        </div></div>
+        <div id="scoreContainer">
+            Total Score: <span id="totalScore">0</span>
+          </div>
+        <button class = "WrongButton" id="Option2">Challenger</button>
+
+        <div class="overlay2" id="overlay2">
+            <div class="popup2" id="popup2">
+                <p id = "msg2">Correct Answer! Add 5 Points!</p>
+                <button class="close-btn" id="closePopup2">Next Question!</button>
+            </div></div>
+
+        <button class="WrongButton" id="Option3">Serenity</button>
+        <button class="WrongButton" id="Option4">Silvanus</button>
+    </div>
+</div>
+    <p id="totalScore"></p>
+    <script src="question2.js"></script>
 </body>
 </html>
