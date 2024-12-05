@@ -4,8 +4,8 @@
 * Will work on adding more questions and improving the aesthethics 
 
 ## Game Rules
-🎮 Play a Valorant Quiz game
-🧠 Try to choose the correct answer
+- 🎮 Play a Valorant Quiz game
+- 🧠 Try to choose the correct answer
 
 ## Build
 
