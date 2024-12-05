@@ -7,7 +7,8 @@ body {
 .top {
     position:relative;
     height: 60vh; /* Top 60% of the viewport */
-    background: url('gun1.jpg')
+    background: url('gun1.jpg') no-repeat center center;
+    background-size:100%;
 }
 
 .bottom {
