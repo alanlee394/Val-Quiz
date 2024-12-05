@@ -1,20 +1,25 @@
-
-body {
+html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
-.top {
-    position:relative;
-    height: 60vh; 
-    background: url('gun1.jpg') no-repeat center center;
-    background-size:100%;
+.container {
+    display: grid;
+    grid-template-columns: 60% 40%; 
+    height: 100%; 
 }
 
-.bottom {
-    height: 40vh; 
-    background-color: blue; 
+.left {
+    background: url('map.png') no-repeat center center;
+    background-size: cover;
+    background-size:90%;
 }
+
+.right {
+    background-color: black; 
+}
+
 
 #scoreContainer {
     position: fixed;
@@ -29,33 +34,35 @@ body {
   }
 
 #qn{
-    margin:20px;
-    color:blue;
-    font-size: 70px;
-    font-weight:bold;
-    position: absolute;
-    bottom: 0; left: 0;
+    margin: 20px;
+    color: darkorchid;
+    font-size: 50px;
+    font-weight: bold;
+
 }
 .popup1 {
-    display: none; 
+    display: none;
     position: fixed; 
-    bottom: 0; 
+    bottom:0;
     left: 0;
-    width: 100%; 
-    height: 50vh; 
+    width: 55%; 
+    height: 100vh; 
     background-color: white;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); 
     padding: 20px;
-    z-index: 1000; 
+    z-index: 2000; 
     display: flex; 
     align-items: center; 
-
+    justify-content: space-between; 
 }
 
-.overlay1{display:none;}
+.overlay1{
+    position:fixed;
+    z-index:1000;
+    display:none;}
 
 #msg1 {
-    margin-top:0px;
+    top:0;
     margin-left: 80px;
     font-size: 100px;
 
@@ -65,73 +72,79 @@ body {
     position: fixed; 
     bottom: 0; 
     left: 0;
-    width: 100%; 
-    height: 50vh; 
+    width: 55%; 
+    height: 100vh; 
     background-color: white;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    z-index: 1000; 
+    z-index: 2000; 
     display: flex; 
     align-items: center; 
     justify-content: space-between; 
 }
 
-.overlay2{display:none;}
+.overlay2{
+    position:fixed;
+    display:none;
+    z-index: 1000;
+}
 
 .close-btn {
     background-color: aqua;
-    font-size:40px;
+    font-size:60px;
     color: white;
     border: none;
     margin-top: 0px;
-    margin-left: 530px;
+    margin-left: 100px;
     padding: 50px 30px;
     border-radius: 5px;
     cursor: pointer;
     text-align:center;
     position:relative;
-    z-index: 2000000;
+    z-index: 200000;
 }
 #msg2 {
     top:0;
-    margin-top:0px;
     margin-left: 80px;
     font-size: 100px;
 
 }
-#Option1 {
-    font-size:60px;
+#correctAnswer {
+    
+    font-size:40px;
     margin:30px;
-    margin-left:300px;
-    background-color: aqua;
+    margin-left:100px;
+
+    background-color: darkorchid;
     color:black;
     font-family: 'Poppins';
     cursor: pointer;
     border-radius:10px;
 }
 
-#correctAnswer {
-    font-size:60px;
-    background-color: aqua;
-    margin-left:250px;
+#Option2 {
+    font-size:40px;
+    background-color: darkorchid;
+    margin-left:25px;
     cursor: pointer;
     font-family: 'Poppins';
     border-radius:10px;
 }
-#Option3 {
-    font-size:60px;
-    background-color: aqua;
+#Option1 {
+    font-size:40px;
+    background-color: darkorchid;
     margin:30px;
-    margin-left:300px;
+    margin-left:100px;
+
     cursor: pointer;
     font-family: 'Poppins';
     border-radius:10px;
 }
 #Option4 {
-    font-size:60px;
-    background-color: aqua;
+    font-size:40px;
+    background-color: darkorchid;
     margin:30px;
-    margin-left:300px;
+
     cursor: pointer;
     font-family: 'Poppins';
     border-radius:10px;

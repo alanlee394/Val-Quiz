@@ -6,17 +6,17 @@ html, body {
 
 .container {
     display: grid;
-    grid-template-columns: 60% 40%; /* 60% for .top and 40% for .bottom */
-    height: 100%; /* Full viewport height */
+    grid-template-columns: 60% 40%; 
+    height: 100%; 
 }
 
 .left {
     background: url('ranklogo.jpg') no-repeat center center;
-    background-size: cover; /* Scale background to cover area */
+    background-size: cover; 
 }
 
 .right {
-    background-color: gold; /* Background color for visibility */
+    background-color: gold; 
 }
 
 
@@ -35,7 +35,8 @@ html, body {
 #qn{
     margin: 20px;
     color: darkorchid;
-    font-size: 70px;
+    font-size: 50px;
+    font-weight: bold;
 
 }
 .popup1 {
@@ -43,15 +44,15 @@ html, body {
     position: fixed; 
     bottom:0;
     left: 0;
-    width: 55%; /* Full width of the screen */
+    width: 55%; 
     height: 100vh; 
     background-color: white;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Shadow at the top */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); 
     padding: 20px;
-    z-index: 1000; /* Ensure it appears on top */
-    display: flex; /* Flexbox for aligning content */
-    align-items: center; /* Center vertically */
-    justify-content: space-between; /* Space between text and button */
+    z-index: 1000; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
 }
 
 .overlay1{
@@ -65,21 +66,20 @@ html, body {
 
 }
 .popup2 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed at the bottom */
-    bottom: 0; /* Align to the bottom */
+    display: none; 
+    position: fixed; 
+    bottom: 0; 
     left: 0;
-    width: 55%; /* Full width of the screen */
-    height: 100vh; /* 40% of the viewport height */
+    width: 55%; 
+    height: 100vh; 
     background-color: white;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Shadow at the top */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); 
     padding: 20px;
-    z-index: 1000; /* Ensure it appears on top */
-    display: flex; /* Flexbox for aligning content */
-    align-items: center; /* Center vertically */
-    justify-content: space-between; /* Space between text and button */
+    z-index: 1000; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
 }
-
 .overlay2{
     position:fixed;display:none;}
 
@@ -104,35 +104,39 @@ html, body {
 
 }
 #correctAnswer {
-    font-size:60px;
+    font-size:40px;
     margin:30px;
 
     background-color: darkorchid;
     color:black;
     font-family: 'Poppins';
     cursor: pointer;
+    border-radius:10px;
 }
 
 #Option2 {
-    font-size:60px;
+    font-size:40px;
     background-color: darkorchid;
-
+    margin-left:38px;
     cursor: pointer;
-    font-family: 'Poppins'
+    font-family: 'Poppins';
+    border-radius:10px;
 }
 #Option3 {
-    font-size:60px;
+    font-size:40px;
     background-color: darkorchid;
     margin:30px;
 
     cursor: pointer;
-    font-family: 'Poppins'
+    font-family: 'Poppins';
+    border-radius:10px;
 }
 #Option4 {
-    font-size:60px;
+    font-size:40px;
     background-color: darkorchid;
     margin:30px;
 
     cursor: pointer;
-    font-family: 'Poppins'
+    font-family: 'Poppins';
+    border-radius:10px;
 }
