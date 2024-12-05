@@ -21,7 +21,7 @@ overlay.addEventListener("click", function () {
     overlay.style.display = "none";
 });
 
-const button2 = document.getElementById("Option2");
+const button2 = document.getElementById("correctAnswer");
 const popup2 = document.getElementById("popup2");
 const overlay2 = document.getElementById("overlay2");
 
@@ -41,7 +41,7 @@ console.log("Number of close buttons found:", closeButtons.length);
 closeButtons.forEach(btn => {
     btn.addEventListener("click", function() {
         console.log("Close button clicked! Navigating...");
-        window.location.href = "question2.html";
+        window.location.href = "question3.html";
     });
 });
 
@@ -53,7 +53,7 @@ if (!localStorage.getItem('score')) {
   scoreDisplay.textContent = localStorage.getItem('score');
 
 
-  document.getElementById('Option2').addEventListener('click', () => {
+  document.getElementById('correctAnswer').addEventListener('click', () => {
     let score = parseInt(localStorage.getItem('score'), 10);
     score += 5; 
     localStorage.setItem('score', score); 

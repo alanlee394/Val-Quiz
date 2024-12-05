@@ -39,12 +39,12 @@ html, body {
 
 }
 .popup1 {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed at the bottom */
-    bottom: 0; /* Align to the bottom */
+    display: none;
+    position: fixed; 
+    bottom:0;
     left: 0;
-    width: 100%; /* Full width of the screen */
-    height: 50vh; /* 40% of the viewport height */
+    width: 55%; /* Full width of the screen */
+    height: 100vh; 
     background-color: white;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Shadow at the top */
     padding: 20px;
@@ -54,7 +54,9 @@ html, body {
     justify-content: space-between; /* Space between text and button */
 }
 
-.overlay1{display:none;}
+.overlay1{
+    position:fixed;
+    display:none;}
 
 #msg1 {
     top:0;
@@ -67,8 +69,8 @@ html, body {
     position: fixed; /* Fixed at the bottom */
     bottom: 0; /* Align to the bottom */
     left: 0;
-    width: 100%; /* Full width of the screen */
-    height: 50vh; /* 40% of the viewport height */
+    width: 55%; /* Full width of the screen */
+    height: 100vh; /* 40% of the viewport height */
     background-color: white;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Shadow at the top */
     padding: 20px;
@@ -78,15 +80,16 @@ html, body {
     justify-content: space-between; /* Space between text and button */
 }
 
-.overlay2{display:none;}
+.overlay2{
+    position:fixed;display:none;}
 
 .close-btn {
     background-color: aqua;
     font-size:60px;
     color: white;
     border: none;
-    margin-top: 150px;
-    margin-left: 500px;
+    margin-top: 0px;
+    margin-left: 100px;
     padding: 50px 30px;
     border-radius: 5px;
     cursor: pointer;
