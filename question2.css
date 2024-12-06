@@ -16,7 +16,7 @@ html, body {
 }
 
 .right {
-    background-color: gold; 
+    background: linear-gradient(to top, #ffd700, #ffec8b);
 }
 
 

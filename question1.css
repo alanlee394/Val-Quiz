@@ -13,7 +13,7 @@ body {
 
 .bottom {
     height: 40vh; 
-    background-color: blue; 
+    background: linear-gradient(to left, #0000ff, #00ffff);
 }
 
 #scoreContainer {
